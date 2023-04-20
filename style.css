@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+}
+
+.winner {
+    width: 300px;
+    height: 200px;
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30;
+    position: absolute;
+    cursor: pointer;
+}
+
+.winner:hover {
+    background-color: rgb(163, 120, 112);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto' sans-serif;
+}
+
+#table td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    background-color: azure;
+
+}
+
+
+table {
+    font-size: 30px;
+}
+
+/* table{
+    border-collapse: collapse; // убрать растояние между ячейек
+} 
+
+tr:first-child tg{
+    border-top: none; // с верху линия
+}
+
+tr:last-child tg{
+    border-bottom: none; // с низу линия
+}
+
+tr:first-child tg{
+    border-left: none; // с лева линия
+}
+
+tr:last-child tg{
+    border-right: none; // с права линия
+}
+*/
