@@ -1,2 +1,2 @@
 # krestikinoliki
- https://antolow.github.io/krestikinoliki/
+https://usu21.github.io/X-0/
